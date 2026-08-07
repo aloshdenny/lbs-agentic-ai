@@ -4,10 +4,10 @@ Course site: [aloshdenny.com/lbs-agentic-ai](https://aloshdenny.com/lbs-agentic-
 
 - [`docs/`](./docs/) — the course site (splash page + four chapters), published via GitHub Pages.
 - [`notebooks/`](./notebooks/) — hands-on notebooks used in the session.
-  - [`memory.ipynb`](./notebooks/memory.ipynb) — a long conversation, three cells: install, init, loop.
-  - [`handoffs-and-tools.ipynb`](./notebooks/handoffs-and-tools.ipynb) — two agents, both with `browser_search` and `code_interpreter`, handing a conversation off between each other.
+  - [`memory.ipynb`](./notebooks/memory.ipynb) — a long conversation, three cells: install, init, loop. Raw Groq API, no framework.
+  - [`agentic-orchestration.ipynb`](./notebooks/agentic-orchestration.ipynb) — a very simple CrewAI crew: a Researcher agent hands its findings to a Writer agent, who turns them into a short brief.
 
-Both notebooks call the Groq API directly, no framework.
+`memory.ipynb` calls the Groq API directly. `agentic-orchestration.ipynb` uses CrewAI (Chapter 02's framework example) with Groq as the model behind it.
 
 ## Setup
 
