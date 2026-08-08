@@ -1,6 +1,6 @@
 # Agentic AI — LBS College FDP, Day 05
 
-Course site: [aloshdenny.com/lbs-agentic-ai](https://aloshdenny.com/lbs-agentic-ai/)
+Course site: [aloshdenny.com/agentic-ai](https://aloshdenny.com/agentic-ai/)
 
 - [`docs/`](./docs/) — the course site (splash page + four chapters), published via GitHub Pages.
 - [`notebooks/`](./notebooks/) — hands-on notebooks used in the session.
@@ -38,8 +38,8 @@ Follow the prompts, then close and reopen your terminal so `conda` is on your PA
 ### 2. Clone this repo
 
 ```bash
-git clone https://github.com/aloshdenny/lbs-agentic-ai.git
-cd lbs-agentic-ai
+git clone https://github.com/aloshdenny/agentic-ai.git
+cd agentic-ai
 ```
 
 (Same command on Windows, Mac, and Linux — run it in Anaconda Prompt on Windows, any terminal on Mac/Linux.)
