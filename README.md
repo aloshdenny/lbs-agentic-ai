@@ -1,4 +1,4 @@
-# Agentic AI — LBS College FDP, Day 05
+# Agentic AI
 
 Course site: [aloshdenny.com/agentic-ai](https://aloshdenny.com/agentic-ai/)
 
@@ -52,12 +52,6 @@ Same commands everywhere — Anaconda Prompt on Windows, Terminal on Mac/Linux:
 conda create -n agentic-ai python=3.11 -y
 conda activate agentic-ai
 pip install -r requirements.txt
-```
-
-If you already have an env from an earlier version of this repo (it used to be named `lbs-agentic-ai`), remove it first so you don't end up with two:
-
-```bash
-conda env remove -n lbs-agentic-ai -y
 ```
 
 ### 4. Run the notebooks
